@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    border:2px solid white;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 20px;
+}
+.img {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/architect.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-box {
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-box b {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: black;
+    padding: 10px;
+}
+
+.text-box span {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}   
+.head {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+.projects {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 25px 25px 25px 25px;
+    gap: 25px;
+}
+.projects p {
+    position: relative;
+    top: 22%;
+    display: flex;
+    width: fit-content;
+    justify-content:start;
+    align-items: flex-start;
+    background-color:black;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
